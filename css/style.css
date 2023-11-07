@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+/* Inicio main */
+
+.background {
+  background: url(../img/homepage.jpg);
+  background-size: cover;
+  padding: 250px 0px;
+}
+
+.background h2 {
+  color: #ffff;
+  padding-left: 90px;
+}
+
+.background span {
+  color: #da70d6;
+  font-weight: 500;
+}
+
+.background p{
+    color: white;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 93px;
+}
+
+.container2{
+    margin-left: 93px;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91c9ff;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #8B008B;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* Final main */
+
+/* inicio produto */
+
+.produtos{
+  padding-top: 50px;
+}
+
+.produtos h1{
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.produtos p{
+  margin-top: 20px;
+  padding: 0px 0px 10px 0px;
+}
+
+.produtos ul li{
+  padding: 0px 0px 10px 0px;
+}
+
+.produtos-btn h1{
+  width: 100%;
+  padding: 40px 0px 20px 0px;
+  text-align: center;
+}
+.produtos-btn span{ 
+  color: #da70d6;
+  font-weight: 900;
+}
