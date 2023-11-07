@@ -15,12 +15,18 @@ ul {
   font-family: "Roboto Flex", sans-serif;
 }
 
+.default{
+  padding: 70px 0px 70px 0px;
+  background-color: #000000;
+  color: #fff;
+}
+
 /* Inicio main */
 
 .background {
   background: url(../img/homepage.jpg);
   background-size: cover;
-  padding: 250px 0px;
+  padding: 230px 0px;
 }
 
 .background h2 {
@@ -34,10 +40,15 @@ ul {
 }
 
 .background p{
-    color: white;
+    color: #fff;
     width: 60%;
     margin-top: 10px;
     margin-left: 93px;
+}
+
+.background a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .container2{
@@ -90,13 +101,10 @@ svg {
 
 /* inicio produto */
 
-.produtos{
-  padding-top: 50px;
-}
-
 .produtos h1{
   padding-bottom: 25px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .produtos p{
@@ -108,12 +116,45 @@ svg {
   padding: 0px 0px 10px 0px;
 }
 
-.produtos-btn h1{
-  width: 100%;
-  padding: 40px 0px 20px 0px;
+.produtos-btn{
   text-align: center;
+}
+
+.produtos-btn h1{
+  padding: 70px 0px 70px 0px;
+  text-transform: uppercase;
 }
 .produtos-btn span{ 
   color: #da70d6;
   font-weight: 900;
+}
+
+.produtos-btn .btn{
+  background: transparent;
+  display: inline-block;
+  outline: none;
+  margin: 0 10px;
+  color: #000000;
+  font-weight: bolder;
+  border: 2px solid 	#4B0082;
+} 
+
+.produtos-btn .btn:hover{
+  transition: 0.5s ease-in-out;
+  background: 	#8A2BE2;
+  color: #fff;
+}
+
+.f-btn{
+  display: none;
+  padding: 60px 0px 60px 0px;
+}
+
+.active{
+  display: block;
+}
+
+.f-btn .btn{
+  width: 300px;
+  height: 35px;
 }
