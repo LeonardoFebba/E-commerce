@@ -136,12 +136,12 @@ svg {
   margin: 0 10px;
   color: #000000;
   font-weight: bolder;
-  border: 2px solid 	#4B0082;
+  border: 1px solid 	#4B0082;
 } 
 
 .produtos-btn .btn:hover{
   transition: 0.5s ease-in-out;
-  background: 	#8A2BE2;
+  background: 	#863984;
   color: #fff;
 }
 
