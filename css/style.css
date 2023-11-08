@@ -21,6 +21,11 @@ ul {
   color: #fff;
 }
 
+.h2-default{
+  text-transform: uppercase;
+  padding: 20px 0px 20px 0px;
+}
+
 /* Inicio main */
 
 .background {
@@ -124,6 +129,7 @@ svg {
   padding: 70px 0px 70px 0px;
   text-transform: uppercase;
 }
+
 .produtos-btn span{ 
   color: #da70d6;
   font-weight: 900;
@@ -139,6 +145,10 @@ svg {
   border: 1px solid 	#4B0082;
 } 
 
+.produtos-btn{
+  margin-bottom: 50px;
+}
+
 .produtos-btn .btn:hover{
   transition: 0.5s ease-in-out;
   background: 	#863984;
@@ -150,11 +160,21 @@ svg {
   padding: 60px 0px 60px 0px;
 }
 
+.f-btn .btn{
+  width: 300px;
+  height: 35px;
+}
+
 .active{
   display: block;
 }
 
-.f-btn .btn{
-  width: 300px;
-  height: 35px;
+#app-content p{
+    padding-bottom: 10px;
+}
+
+.consultoria-content p{
+  position: flex;
+  top: 6000px;
+  padding-bottom: 20px;
 }
