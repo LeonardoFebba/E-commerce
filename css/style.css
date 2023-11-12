@@ -195,8 +195,7 @@ svg {
 }
 
 .pre-footer-content{
-  background: url('/img/cta-banner-fabrica-de-software-1.jpg');
-  background-size: cover;
+  background: url("../img/sw.jpg");
   padding: 200px 0;
   text-align: right;
   color: #fff;
