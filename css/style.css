@@ -15,6 +15,15 @@ ul {
   font-family: "Roboto Flex", sans-serif;
 }
 
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  color: #000000;
+}
+
 .default{
   padding: 70px 0px 70px 0px;
   background-color: #000000;
@@ -23,7 +32,12 @@ ul {
 
 .h2-default{
   text-transform: uppercase;
+  text-align: center;
   padding: 20px 0px 20px 0px;
+}
+
+span{
+  color: #da70d6;;
 }
 
 /* Inicio main */
@@ -130,6 +144,7 @@ svg {
   text-transform: uppercase;
 }
 
+
 .produtos-btn span{ 
   color: #da70d6;
   font-weight: 900;
@@ -144,10 +159,6 @@ svg {
   font-weight: bolder;
   border: 1px solid 	#4B0082;
 } 
-
-.produtos-btn{
-  margin-bottom: 50px;
-}
 
 .produtos-btn .btn:hover{
   transition: 0.5s ease-in-out;
@@ -165,16 +176,50 @@ svg {
   height: 35px;
 }
 
-.active{
-  display: block;
-}
-
 #app-content p{
     padding-bottom: 10px;
 }
 
-.consultoria-content p{
-  position: flex;
-  top: 6000px;
-  padding-bottom: 20px;
+/* Final produtos */
+
+.exp-content h2{
+  padding-bottom: 100px;
+}
+
+.col > img{
+  padding-bottom: 30px;
+}
+
+.col > h3{
+  color: #da70d6;
+}
+
+.pre-footer-content{
+  background: url('/img/cta-banner-fabrica-de-software-1.jpg');
+  background-size: cover;
+  padding: 200px 0;
+  text-align: right;
+  color: #fff;
+}
+
+.text-content{
+  float: right;
+  width: 40%;
+  padding-right: 50px;
+}
+
+.text-content > .txt-button{
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.text-content > .txt-button:hover{
+  transition: 0.5s ease-in-out;
+  background-color: #0765bd;
+}
+
+footer > p{
+  text-align: center;
+  margin: 3px;
 }
