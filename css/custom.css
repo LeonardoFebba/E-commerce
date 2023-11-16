@@ -1,0 +1,48 @@
+.newBG{
+    background: url("../img/dev-custom.jpg");
+    background-size: cover;
+    padding: 300px 0px;
+    text-align: right;
+    color: #fff;
+}
+
+.customIntro{
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.newContent h1{
+    padding-bottom: 30px;
+}
+
+.newContent h5{
+    padding: 20px 0px 10px 0px;
+}
+/* 
+.btn-warning{
+    background-color: #ffc107;
+    border: #ffc107;  
+} */
+
+.txt-button{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+.txt-button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #0765bd;
+  }
+
+.customdev-content{
+    background: url("../img/capital+humano.jpg");
+    background-size: cover;
+    padding: 150px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.customdev-content{
+    padding-left: 30px;
+}
