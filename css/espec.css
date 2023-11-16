@@ -1,0 +1,50 @@
+.specContent{
+    background: url("../img/dev-spec.png");
+    background-size: cover;
+    padding: 250px 0;
+    color: #fff;
+    text-align: right;
+}
+
+.specIntro{
+    text-transform: uppercase;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+
+.spec h1{
+    padding-bottom: 30px;
+}
+
+.spec h5{
+    padding: 20px 0px 10px 0px;
+}
+
+.espec-footer-content{
+    background: url("../img/dev-spec-footer.jpg");
+    background-size: cover;
+    padding: 150px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.espec-footer-content{
+    padding-left: 30px;
+}
+
+
+.espec-footer-content h2{
+    width: 30%;
+}
+
+
+.txt-button{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+.txt-button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #0765bd;
+  }

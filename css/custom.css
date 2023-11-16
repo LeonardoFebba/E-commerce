@@ -1,7 +1,7 @@
 .newBG{
     background: url("../img/dev-custom.jpg");
     background-size: cover;
-    padding: 300px 0px;
+    padding: 250px 0px;
     text-align: right;
     color: #fff;
 }
@@ -9,6 +9,7 @@
 .customIntro{
     padding-right: 20px;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .newContent h1{
@@ -18,11 +19,6 @@
 .newContent h5{
     padding: 20px 0px 10px 0px;
 }
-/* 
-.btn-warning{
-    background-color: #ffc107;
-    border: #ffc107;  
-} */
 
 .txt-button{
     padding: 10px;
