@@ -12,3 +12,19 @@ toggleButtons.forEach((button, index) => {
     contentContainers[buttonIndex].style.display = "block";
   });
 });
+
+document.getElementById('contactForm').addEventListener('submit', function (event) {
+  event.preventDefault();
+
+  // Exibir tela de loading
+  document.getElementById('loading').style.display = 'block';
+
+  // Simular o envio do formulário (tempo fictício de 2 segundos)
+  setTimeout(function () {
+      // Esconder tela de loading
+      document.getElementById('loading').style.display = 'none';
+
+      // Exibir mensagem de confirmação
+      document.getElementById('confirmation').style.display = 'block';
+  }, 2000);
+});

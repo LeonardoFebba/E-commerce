@@ -47,6 +47,20 @@ span{
   width: 45%;
 }
 
+.nb{
+  padding: 10px 40px;
+  border-radius: 5%;
+}
+
+.nb:hover{
+  transition-duration: 1s;
+  background-color: #4B0082;
+}
+
+#loading, #confirmation{
+  margin-top: 10px;
+}
+
 /* Inicio main */
 
 .background {

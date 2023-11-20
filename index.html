@@ -30,12 +30,61 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contate-nos</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contate-nos</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
+    
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Entre em Contato</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+              </div>
+              <div class="modal-body">
+                  <form id="contactForm">
+                      <div class="mb-3">
+                          <label for="name" class="form-label">Nome</label>
+                          <input type="text" class="form-control" id="name" placeholder="Seu Nome" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="email" class="form-label">E-mail</label>
+                          <input type="email" class="form-control" id="email" placeholder="seu.email@example.com" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="empresa" class="form-label">Empresa</label>
+                        <input type="text" class="form-control" id="empresa" placeholder="Nome da sua empresa" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="telefone" class="form-label">Telefone</label>
+                      <input type="text" class="form-control" id="telefone" placeholder="(11) 11111-1111" required>
+                  </div>
+                      <div class="mb-3">
+                          <label for="message" class="form-label">Mensagem</label>
+                          <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem" required></textarea>
+                      </div>
+                      <button type="submit" class="nb btn-primary">Enviar</button>
+                  </form>
+
+                  <!-- Tela de carregamento -->
+                  <div id="loading" style="display: none;">
+                    <p>Enviando dados...</p>
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Carregando...</span>
+                    </div>
+                </div>
+
+                  <!-- Mensagem de Confirmação -->
+                  <div id="confirmation" style="display: none;">
+                      <p>Dados enviados! Entraremos em contato em breve, pode fechar o formulário e continuar no site.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
     <main class="background">
         <h2>Connecting excellence, Scalling <span>Innovation</span></h2>
@@ -52,6 +101,7 @@
           </div>
         </div>
       </main>
+
       <!-- Inicio produtos -->
       <section class="produtos default">
           <div class="container">
@@ -75,7 +125,7 @@
             <h2 class="h2-default">Desenvolvimento de aplicações personalizadas</h2>
             <p>Oferecemos opções de customização de sistemas e desenvolvimento de aplicações personalizadas</p>
             <p>Escolha o serviço mais adequado à sua necessidade:</p>
-            <a href="pages/devcustom.html" target="_blank"><button type="button" class="btn btn-primary toggle-custom" >Desenvolvimento Customizado</button></a>
+            <button type="button" class="btn btn-primary toggle-custom" ><a href="pages/devcustom.html" target="_blank">Desenvolvimento Customizado</a></button>
             <button type="button" class="btn btn-primary toggle-custom"><a href="pages/devespec.html" target="_blank">Desenvolvimento Específico</a></button>
             <button type="button" class="btn btn-primary toggle-custom"><a href="pages/devcolab.html" target="_blank">Desenvolvimento Colaborativo</a></button>
             <button type="button" class="btn btn-primary toggle-custom"><a href="pages/devmob.html" target="_blank">Desenvolvimento de App Mobile</a></button>
