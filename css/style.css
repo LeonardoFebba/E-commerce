@@ -40,6 +40,13 @@ span{
   color: #da70d6;;
 }
 
+.title{
+  background-color: #000;
+  color: #fff;
+  padding-left: 30px;
+  width: 45%;
+}
+
 /* Inicio main */
 
 .background {

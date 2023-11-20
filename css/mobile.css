@@ -1,0 +1,39 @@
+.mobileContent{
+    background-image: url('../img/dev-mobile.jpg');
+    background-size: cover;
+    padding: 250px 0px;
+}
+
+.mobileContent h1{
+    text-transform: uppercase;
+    padding-left: 30px;
+    color: #fff;
+}
+
+.content-section h5{
+    padding: 20px 0px 10px 0px;
+}
+
+.txt-button{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+.txt-button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #0765bd;
+  }
+
+.pre-footer-mobile-content{
+    background: url("../img/mobile-footer.jpg");
+    background-size: cover;
+    padding: 250px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.pre-footer-mobile-content{
+    padding-left: 30px;
+}
+

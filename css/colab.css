@@ -1,0 +1,42 @@
+.colabContent{
+    background: url("../img/dev-colab.jpg");
+    background-size: cover;
+    padding: 250px 0px;
+    color: #fff;
+}
+
+.colabContent h1{
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.container h1{
+    padding-bottom: 30px;
+}
+
+.container h5{
+    padding: 20px 0px 10px 0px;
+}
+
+.txt-button{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+.txt-button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #0765bd;
+  }
+
+.pre-footer-colab-content{
+    background: url("../img/colab.jpg");
+    background-size: cover;
+    padding: 200px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.pre-footer-colab-content{
+    padding-left: 30px;
+}

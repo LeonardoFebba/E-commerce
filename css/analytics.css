@@ -1,0 +1,12 @@
+.analy-content{
+    background-image: url("../img/analytics.jpg");
+    background-size: cover;
+    padding: 250px 0px;
+}
+
+.nt{
+    background-color: #000;
+    color: #fff;
+    padding-left: 30px;
+    max-width: 30%;
+}
