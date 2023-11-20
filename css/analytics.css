@@ -1,4 +1,4 @@
-.analy-content{
+.analy-intro{
     background-image: url("../img/analytics.jpg");
     background-size: cover;
     padding: 250px 0px;
@@ -9,4 +9,59 @@
     color: #fff;
     padding-left: 30px;
     max-width: 30%;
+}
+
+.analy-content h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+ul li > img{
+    padding: 0px 10px 5px 0px;
+}
+
+.benefits{
+    margin-top: 30px;
+}
+
+.benefits h5{
+    text-transform: uppercase;
+    color: #da70d6;
+    font-weight: bolder;
+}
+
+
+.txt-button{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+.txt-button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #0765bd;
+  }
+
+.pre-footer-ana-content{
+    background: url("../img/powerBI.jpg");
+    background-size: cover;
+    padding: 150px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.pre-footer-ana-content{
+    padding-left: 30px;
 }
