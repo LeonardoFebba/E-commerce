@@ -4,3 +4,46 @@
     padding: 250px 0px;
     
 }
+
+.nt{
+    color: #fff;
+    max-width: 40%;
+    padding-left: 30px;
+    background-color: #000;
+}
+
+.card-section{
+    margin-top: 30px;
+}
+
+.card-section h2{
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.content-section h5, h1{
+    padding: 20px 0px 10px 0px;
+}
+
+.txt-button{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+.txt-button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #0765bd;
+  }
+
+.pre-footer-cloud-content{
+    background: url("../img/cloud-footer.jpg");
+    background-size: cover;
+    padding: 150px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.pre-footer-cloud-content{
+    padding-left: 30px;
+}
