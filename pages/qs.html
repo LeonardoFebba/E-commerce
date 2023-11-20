@@ -9,34 +9,83 @@
     <title>Somos a Doouj Technology</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Doouj Technology</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Quem somos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorias
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="analytics.html" target="_blank">Analytics</a></li>
-                  <li><a class="dropdown-item" href="erp.html" target="_blank">ERP</a></li>
-                  <li><a class="dropdown-item" href="cloud.html" target="_blank">Cloud</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contate-nos</a>
-              </li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Doouj Technology</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="pages/qs.html" target="_blank">Quem somos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pages/analytics.html" target="_blank">Analytics</a></li>
+              <li><a class="dropdown-item" href="pages/erp.html" target="_blank">ERP</a></li>
+              <li><a class="dropdown-item" href="pages/cloud.html" target="_blank">Cloud</a></li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contate-nos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Entre em Contato</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
-        </div>
-    </nav>
+          <div class="modal-body">
+              <form id="contactForm">
+                  <div class="mb-3">
+                      <label for="name" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="name" placeholder="Seu Nome" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">E-mail</label>
+                      <input type="email" class="form-control" id="email" placeholder="seu.email@example.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="empresa" class="form-label">Empresa</label>
+                    <input type="text" class="form-control" id="empresa" placeholder="Nome da sua empresa" required>
+                </div>
+                <div class="mb-3">
+                  <label for="telefone" class="form-label">Telefone</label>
+                  <input type="text" class="form-control" id="telefone" placeholder="(11) 11111-1111" required>
+              </div>
+                  <div class="mb-3">
+                      <label for="message" class="form-label">Mensagem</label>
+                      <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem" required></textarea>
+                  </div>
+                  <button type="submit" class="nb btn-primary">Enviar</button>
+              </form>
+
+              <!-- Tela de carregamento -->
+              <div id="loading" style="display: none;">
+                <p>Enviando dados...</p>
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Carregando...</span>
+                </div>
+            </div>
+
+              <!-- Mensagem de Confirmação -->
+              <div id="confirmation" style="display: none;">
+                  <p>Dados enviados! Entraremos em contato em breve, pode fechar o formulário e continuar no site.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
     <section class="qs-intro">
         <h1>Nós somos a Doouj Technology</h1>
