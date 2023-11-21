@@ -1,0 +1,430 @@
+/* Index qureries */
+
+@media (max-width: 1441px){
+    .background{
+        padding: 130px 0px;
+    }
+
+    .background p{
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 1281px){
+    .background{ 
+        width: 100%;
+        
+    }
+
+    .background p{
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .produtos{
+        text-align: justify;
+        align-items: center;
+    }
+
+    .produtos-btn > .btn{
+        font-size: 13px;
+        width:  20%;
+        margin: 10px;
+    }
+
+    .f-btn > .toggle-custom{
+        margin-bottom: 10px;
+        height: 40px;
+        max-width: 40%;
+        font-size: 15px;
+    }
+
+    .produtos-btn > .lc{
+        height: 47px;
+    }
+
+    .text-center > .row{
+        width: 100%;
+    }
+
+    .text-center p{
+        margin-bottom: 30px;
+    }
+
+    .pre-footer-content{
+        padding: 100px 0;
+    }
+    
+    .pre-footer-content h2{
+        width: 600px;
+        padding-left: 10px;
+        text-align: left;
+        font-size: 20px;
+        background-color: #000;
+    }
+
+    .text-content > .txt-button{
+       float: left;
+       clear: both;
+    }
+
+}
+
+@media (max-width: 740px){
+    .background{ 
+        width: 100%;
+        
+    }
+
+    .background p{
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .produtos{
+        text-align: justify;
+        align-items: center;
+    }
+
+    .produtos-btn > .btn{
+        font-size: 13px;
+        width:  40%;
+        margin: 10px;
+    }
+
+    .f-btn > .toggle-custom{
+        margin-bottom: 10px;
+        height: 55px;
+        max-width: 40%;
+        font-size: 13px;
+    }
+
+    .produtos-btn > .lc{
+        height: 47px;
+    }
+
+    .text-center > .row{
+        width: 100%;
+    }
+
+    .text-center p{
+        margin-bottom: 30px;
+    }
+
+    .pre-footer-content{
+        padding: 140px 0;
+    }
+    
+    .pre-footer-content h2{
+        width: 300px;
+        padding-left: 10px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 430px){
+
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .nav-item{
+        font-size: 25px;
+    }
+
+    .dropdown-item{
+        font-size: 25px;
+    }
+
+    .background h2{
+        max-width: 85%;
+        font-size: 35px;
+    }
+
+    .background p{
+        line-height: 30px;
+        text-align: justify;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .produtos{
+        text-align: justify;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .app-consul{
+        text-align: justify;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .produtos-btn > .btn{
+        font-size: 20px;
+        width:  40%;
+        height: 70px;
+        margin: 10px;
+    }
+
+    .f-btn > .toggle-custom{
+        margin-bottom: 10px;
+        height: 67px;
+        max-width: 50%;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .consultoria-content{
+        text-align: justify;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .produtos-btn > .lc{
+        height: 47px;
+        margin-bottom: 10px;
+        height: 67px;
+        max-width: 50%;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .text-center > .row{
+        width: 100%;
+        display: block;
+    }
+
+    .text-center h3{
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .text-center p{
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .pre-footer-content{
+        padding: 150px 0;
+    }
+
+    .text-content h2{
+        font-size: 30px;
+        max-width: 400px;
+    }
+
+    .text-content > .txt-button{
+        max-width: 300px;
+        font-size: 25px;
+     }
+
+     footer{
+        font-size: 20px;
+        font-weight: 600px;
+     }
+}
+
+/* Index qureries */
+
+/* ---------------------------------*/
+
+/* Quem Somos queries */
+
+@media (max-width: 740px){
+
+    .parallax{
+        height: 450px;
+    }
+    
+    .container > .row{
+        width: 100%;
+        display: block;
+        font-size: 13px;
+    }
+
+    .comments{
+        align-items: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 430px){
+
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .nav-item{
+        font-size: 25px;
+    }
+
+    .dropdown-item{
+        font-size: 25px;
+    }
+
+    .qs-intro h1{
+        font-size: 35px;
+    }
+
+    #content{
+        font-weight: 500;
+    }
+
+    .comments{
+        width: 100%;
+        align-items: center;
+        padding-left: 50px;
+        margin: 0;
+    }
+
+    .content-section h2{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .content-section h5{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .content-section{
+        font-weight: 400;
+        font-size: 25px;
+        text-align: justify;
+        align-items: center;
+    }
+
+    .parallax{
+        height: 1095px;
+    }
+
+    h3{
+        font-size: 30px;
+        max-width: 400px;
+    }
+
+    .container > .row{
+        margin-top: 40px;
+        width: 100%;
+        display: block;
+        font-size: 13px;
+    }
+
+    .smt h2{
+        font-size: 30px;
+        max-width: 400px;
+    }
+
+    .pre-footer-main-content{
+        padding: 150px 0;
+    }
+
+    .pre-footer-main-content h2{
+        font-size: 30px;
+        width: 400px;
+        background-color: #000;
+    }
+
+    .pre-footer-main-content > .txt-button{
+        max-width: 300px;
+        font-size: 25px;
+     }
+
+     footer{
+        font-size: 20px;
+        font-weight: 600px;
+     }
+}
+
+/* Quem Somos queries */
+
+/* Analytics page queries */
+
+@media (max-width: 740px){
+
+   
+}
+
+@media (max-width: 430px){
+
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .nav-item{
+        font-size: 25px;
+    }
+
+    .dropdown-item{
+        font-size: 25px;
+    }
+    
+    .analy-intro h1{
+        background-color: #000;
+        width: 300px;
+    }
+
+    .analy-content h1{
+        font-size: 30px;
+    }
+
+    .analy-content p{
+        align-items: center;
+        text-align: justify;
+        font-size: 25px;
+    }
+
+    .analy-content ul li{
+        font-size: 25px;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .text-center h5{
+        padding-bottom: 30px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .text-center .row .col-6{ 
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .text-center{
+        margin: 0 auto;
+    }
+
+    .btp h2{
+        font-size: 30px;
+    }
+
+    .btp{
+        font-size: 25px;
+    }
+
+    .txt-button{
+        font-size: 20px;
+      }
+      
+
+     footer{
+        font-size: 20px;
+        font-weight: 600px;
+     }
+}
+
+/* Analytics page queries */

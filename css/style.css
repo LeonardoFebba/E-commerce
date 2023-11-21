@@ -217,15 +217,19 @@ svg {
 
 .pre-footer-content{
   background: url("../img/sw.jpg");
+  background-size: cover;
   padding: 200px 0;
-  text-align: right;
+  text-align: left;
   color: #fff;
 }
 
 .text-content{
-  float: right;
+  padding-left: 30px;
   width: 40%;
-  padding-right: 50px;
+}
+
+.text-content h2{
+  background-color: #000;
 }
 
 .text-content > .txt-button{

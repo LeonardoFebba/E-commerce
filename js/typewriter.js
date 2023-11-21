@@ -1,7 +1,7 @@
 const texts = [
+    "Conectando decisões à excelência",
     "Moldando o futuro através de tecnologia",
     "Conectamos escolhas a oportunidades ilimitadas",
-    "Inovação e excelência - nosso compromisso com o futuro"
 ];
 
 let currentTextIndex = 0; 
